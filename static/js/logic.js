@@ -10,7 +10,7 @@ let map = L.map('mapid', {
 	layers: [outdoors]
 });
 
-let stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/activities.json"
+let stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/strava_data.json"
 d3.json(stravaData).then(function(data) {
     console.log(data)
 

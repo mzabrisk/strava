@@ -18,14 +18,14 @@
                 "elev_high": 1337.0,
                 "elev_low": 1332.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -46,14 +46,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -466,14 +466,14 @@
                 "elev_high": 1288.6,
                 "elev_low": 1285.0,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -494,14 +494,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -634,14 +634,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10053422",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -662,14 +662,14 @@
                 "elev_high": 1293.8,
                 "elev_low": 1286.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1110,14 +1110,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10369972",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1138,14 +1138,14 @@
                 "elev_high": 1320.4,
                 "elev_low": 1315.2,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1306,14 +1306,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10369972",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1446,14 +1446,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10369972",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1474,14 +1474,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10369972",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1838,14 +1838,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1922,14 +1922,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -1978,14 +1978,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -3966,14 +3966,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g10828880",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6010,14 +6010,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6038,14 +6038,14 @@
                 "elev_high": 1244.6,
                 "elev_low": 1237.6,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6458,14 +6458,14 @@
                 "elev_high": 1310.2,
                 "elev_low": 1303.6,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6486,14 +6486,14 @@
                 "elev_high": 1308.8,
                 "elev_low": 1296.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6514,14 +6514,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6542,14 +6542,14 @@
                 "elev_high": 1306.4,
                 "elev_low": 1293.4,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6738,14 +6738,14 @@
                 "elev_high": 1255.0,
                 "elev_low": 1245.6,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -6990,14 +6990,14 @@
                 "elev_high": 1274.6,
                 "elev_low": 1258.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7074,14 +7074,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7102,14 +7102,14 @@
                 "elev_high": 1286.4,
                 "elev_low": 1268.2,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7410,14 +7410,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7550,14 +7550,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7718,14 +7718,14 @@
                 "elev_high": 1300.6,
                 "elev_low": 1282.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7746,14 +7746,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7886,14 +7886,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7970,14 +7970,14 @@
                 "elev_high": 1280.0,
                 "elev_low": 1273.0,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -7998,14 +7998,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8138,14 +8138,14 @@
                 "elev_high": 1273.6,
                 "elev_low": 1262.4,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8194,14 +8194,14 @@
                 "elev_high": 1279.4,
                 "elev_low": 1273.8,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8222,14 +8222,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8250,14 +8250,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8306,14 +8306,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8586,14 +8586,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8642,14 +8642,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8698,14 +8698,14 @@
                 "elev_high": 1268.8,
                 "elev_low": 1256.0,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8754,14 +8754,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8782,14 +8782,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8838,14 +8838,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8866,14 +8866,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8922,14 +8922,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8950,14 +8950,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -8978,14 +8978,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -9034,14 +9034,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -9090,14 +9090,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g9558973",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -9538,14 +9538,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g8097916",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -9678,14 +9678,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g8097916",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -25750,14 +25750,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g4784620",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -32330,14 +32330,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g3874242",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -32470,14 +32470,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g3450188",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -37090,14 +37090,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g3293977",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39078,14 +39078,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39358,14 +39358,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39442,14 +39442,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39582,14 +39582,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39694,14 +39694,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39778,14 +39778,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -39806,14 +39806,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40030,14 +40030,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40142,14 +40142,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40198,14 +40198,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40310,14 +40310,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40338,14 +40338,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40366,14 +40366,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40506,14 +40506,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1481172",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40562,14 +40562,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1481172",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40590,14 +40590,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40702,14 +40702,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -40758,14 +40758,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41066,14 +41066,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2099424",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41150,14 +41150,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41178,14 +41178,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41234,14 +41234,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41262,14 +41262,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41318,14 +41318,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41346,14 +41346,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -41402,14 +41402,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2646602",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -42578,14 +42578,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1846784",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -44958,14 +44958,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2248110",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -45994,14 +45994,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g2067993",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -47086,14 +47086,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1923379",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -47478,14 +47478,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1481172",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -50950,14 +50950,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1479164",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -52994,14 +52994,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1156583",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -53610,14 +53610,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g1156583",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -55990,14 +55990,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g863422",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -56830,14 +56830,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g445824",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -58538,14 +58538,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g445824",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -58650,14 +58650,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g689808",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -59490,14 +59490,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g445824",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -61618,14 +61618,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g394390",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -61954,14 +61954,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g445824",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -62122,14 +62122,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g445824",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
@@ -65846,14 +65846,14 @@
                 "elev_high": NaN,
                 "elev_low": NaN,
                 "gear_id": "g322038",
-                "latitude": "]",
+                "latitude": "0",
                 "longitude": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     null,
-                    "]"
+                    "0"
                 ]
             }
         },
