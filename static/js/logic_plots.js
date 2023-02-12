@@ -2,7 +2,7 @@
 
 
 
-// var stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/strava_data2.json"
+// var stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/static/data/strava_data2.json"
 d3.json(stravaData).then(function(data) {
     console.log(data.features)
 

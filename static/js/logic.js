@@ -69,7 +69,7 @@ let baseMaps = {
   // allows turning on and off layers/overlays
   L.control.layers(baseMaps, overlays).addTo(map);
 
-let stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/strava_data2.json"
+let stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/static/data/strava_data2.json"
 d3.json(stravaData).then(function(data) {
     console.log(data.features[4])
 
