@@ -1,8 +1,6 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
-// Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([40.7, -94.5], 4);
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -12,7 +10,6 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 });
 
 // Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
 
 let navigationNight = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-night-v1/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -20,10 +17,23 @@ let navigationNight = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navig
 	accessToken: API_KEY
 });
 
+let outdoors = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/outdoors-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+	maxZoom: 18,
+	accessToken: API_KEY
+});
+
+let map = L.map('mapid', {
+    center: [40.7, -94.5],
+    zoom: 4,
+    layers: [outdoors]
+  })
+
 // Basemaps
 let baseMaps = {
     "Streets": streets,
-    "Night": navigationNight
+    "Night": navigationNight,
+    "Outdoors": outdoors
   };
   
   // Layer groups
@@ -39,14 +49,6 @@ let baseMaps = {
   let run2015 = new L.LayerGroup();
   let run2014 = new L.LayerGroup();
   let run2013 = new L.LayerGroup();
-
-  
-  
-//   let tectonicPlates = new L.LayerGroup();
-  
-//   let majorEarthquakes = new L.LayerGroup();
-  
-  
   
   //Overlays
   let overlays = {
@@ -69,13 +71,13 @@ let baseMaps = {
 
 let stravaData = "https://raw.githubusercontent.com/mzabrisk/strava/main/strava_data2.json"
 d3.json(stravaData).then(function(data) {
-    console.log(data.features[0])
+    console.log(data.features[4])
 
     function styleInfo(feature) {
         return {
           opacity: 1,
-          fillOpacity: 1,
-          fillColor: 'orange', //getColor(feature.properties.mag),
+          fillOpacity: .6,
+          fillColor: getColor((feature.properties.total_elevation_gain*3.25)/(feature.properties.distance*3.25/5280)),
           color: "#000000",
           radius: ((feature.properties.distance)**(0.95))/3000,
           stroke: true,
@@ -83,26 +85,31 @@ d3.json(stravaData).then(function(data) {
         };
       }
 
-    function getRadius(distance) {
-        if (distance < 10) {
-            return distance /100
+    function getColor(elevationGainPerMile) {
+        // console.log(elevationGainPerMile)
+        if (elevationGainPerMile >= 400) {
+            return '#6C3483'
         }
-        if (distance < 20) {
-            return distance /5000
+        if (elevationGainPerMile >= 300) {
+            return '#A93226'
         }
-        else {
-            return distance / 5000
+        if (elevationGainPerMile >= 200) {
+            return '#AF601A'
+        }
+        if (elevationGainPerMile >= 100) {
+            return '#F4D03F'
+        }
+        if (elevationGainPerMile < 100) {
+            return '#28B463'
         }
 
 
     }
 
 
-
-
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng)
+            return L.circle(latlng, feature.properties.distance)
         },
         style: styleInfo,
 
@@ -112,7 +119,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2023-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2024-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -123,7 +130,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2022-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2023-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -134,7 +141,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2021-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2022-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -145,7 +152,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2020-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2021-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -156,7 +163,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2019-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2020-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -167,7 +174,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2018-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2019-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -178,7 +185,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2017-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2018-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -189,7 +196,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2016-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2017-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -200,7 +207,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2015-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2016-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -211,7 +218,7 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2014-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2015-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
@@ -222,12 +229,43 @@ d3.json(stravaData).then(function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if ((Date.parse(feature.properties.date) >= Date.parse('2013-01-01')) && (Date.parse(feature.properties.date) < Date.parse('2014-01-01'))) {
-                return L.circleMarker(latlng)
+                return L.circle(latlng, feature.properties.distance)
             }
         },
         style: styleInfo,
 
     }).addTo(run2013)
     // run2013.addTo(map)
+
+      // Here we create a legend control object.
+let legend = L.control({
+    position: "bottomleft"
+  });
+  
+  // Then add all the details for the legend
+  legend.onAdd = function() {
+    let div = L.DomUtil.create("div", "info legend");
+  
+    const magnitudes = [ , 0, 100, 200, 300, 400];
+    const colors = [ ,
+      '#28B463',
+      '#F4D03F',
+      '#AF601A',
+      '#A93226',
+      '#6C3483'
+    ];
+  
+  
+    for (var i = 0; i < magnitudes.length; i++) {
+      console.log(colors[i]);
+      div.innerHTML +=
+        (colors[i] ? "<i style='background: " + colors[i] + "'></i> " +
+        magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+") : '<h4>Gain(ft)/Mile</h4>');
+      }
+      return div;
+    };
+  
+    // Finally, we our legend to the map.
+    legend.addTo(map);
 
 })
