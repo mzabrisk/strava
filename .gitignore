@@ -5,6 +5,7 @@ __pycache__/
 config.py
 config.js
 strava_tokens.json
+.DS_Store
 
 # C extensions
 *.so
